@@ -37,5 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  code
+  games = 1
+  while games < 10
+    turn(board)
+    games +=1
+  end
 end
